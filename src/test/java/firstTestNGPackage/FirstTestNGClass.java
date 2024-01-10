@@ -22,7 +22,7 @@ public class FirstTestNGClass {
   @BeforeTest
   public void initiateBrowser()
   {
-	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\kagrawa\\eclipse-workspace\\TestNGFramework\\chromedriver.exe"); 
+	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\kagrawa\\OneDrive - Capgemini\\Desktop\\JavaSelenium2024\\TestNGFramework\\chromedriver.exe"); 
 	  driver = new ChromeDriver(); 
 	  driver.get(baseUrl);
 	  System.out.println("Before test done");

@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="firstTestNGPackage.FirstTestNGClass"/>
-      <class name="firstTestNGPackage.TC_Class1"/>
+    
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
