@@ -3,14 +3,16 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="firstTestNGPackage.TC_Class1">
+      <class name="firstTestNGPackage.FirstTestNGClass">
         <methods>
-          <include name="tc04VerifyLoggedInPage"/>
           <include name="initiateBrowser"/>
-          <include name="tc02VerifyLaunchPage"/>
-          <include name="tc05VerifyHyperlinks"/>
+          <include name="goBackToHomepage"/>
+          <include name="support"/>
+          <include name="register"/>
+          <include name="terminateBrowser"/>
+          <include name="verifyHomepageTitle"/>
         </methods>
-      </class> <!-- firstTestNGPackage.TC_Class1 -->
+      </class> <!-- firstTestNGPackage.FirstTestNGClass -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
