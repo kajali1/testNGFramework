@@ -1,19 +1,31 @@
 name: CI - Master Branch Workflow
+
 on:
+
   push:
+
     branches:
+
       - master
 
 defaults:
+
   run:
+
     shell: pwsh
 
 jobs:
-  Test:
-    runs-on: ubuntu-latest
-     steps:
-      - uses: actions/checkout@v2
-      - name: Run Tests
-        run: mvn clean test -DsuiteXmlFile=testng.xml -DBrowser="chrome"
-        working-directory: TestNGFramework
 
+  Test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v2
+
+      - name: Run Tests
+
+        run: mvn clean verify -D'cucumber.filter.tags="@tagname"'
+
+        working-directory: TestNGFramework
