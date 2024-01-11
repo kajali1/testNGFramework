@@ -70,11 +70,14 @@
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.22.1</version>
-			<!-- 		<configuration>
+		 	<configuration>
 						<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
-					</configuration>  -->
+				  	  <systemPropertyVariables>
+          <browser>${Browser}</browser>
+          </systemPropertyVariables>   
+					</configuration> 
 				</plugin>
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>

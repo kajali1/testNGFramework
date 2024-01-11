@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-10T16:48:09 GMT" name="Surefire suite" finished-at="2024-01-10T16:48:29 GMT" duration-ms="19892">
+  <suite started-at="2024-01-11T10:20:13 GMT" name="Suite" finished-at="2024-01-11T10:20:30 GMT" duration-ms="17414">
     <groups>
     </groups>
-    <test started-at="2024-01-10T16:48:09 GMT" name="Surefire test" finished-at="2024-01-10T16:48:29 GMT" duration-ms="19892">
+    <test started-at="2024-01-11T10:20:13 GMT" name="Test" finished-at="2024-01-11T10:20:30 GMT" duration-ms="17414">
       <class name="firstTestNGPackage.FirstTestNGClassTest">
-        <test-method is-config="true" signature="initiateBrowser(java.lang.String)[pri:0, instance:firstTestNGPackage.FirstTestNGClassTest@69930714]" started-at="2024-01-10T16:48:09 GMT" name="initiateBrowser" finished-at="2024-01-10T16:48:24 GMT" duration-ms="15410" status="PASS">
+        <test-method is-config="true" signature="initiateBrowser(java.lang.String)[pri:0, instance:firstTestNGPackage.FirstTestNGClassTest@769f71a9]" started-at="2024-01-11T10:20:13 GMT" name="initiateBrowser" finished-at="2024-01-11T10:20:25 GMT" duration-ms="11951" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,35 +18,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateBrowser -->
-        <test-method is-config="true" signature="verifyHomepageTitle()[pri:0, instance:firstTestNGPackage.FirstTestNGClassTest@69930714]" started-at="2024-01-10T16:48:24 GMT" name="verifyHomepageTitle" finished-at="2024-01-10T16:48:25 GMT" duration-ms="31" status="PASS">
+        <test-method is-config="true" signature="verifyHomepageTitle()[pri:0, instance:firstTestNGPackage.FirstTestNGClassTest@769f71a9]" started-at="2024-01-11T10:20:25 GMT" name="verifyHomepageTitle" finished-at="2024-01-11T10:20:25 GMT" duration-ms="140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomepageTitle -->
-        <test-method signature="register()[pri:0, instance:firstTestNGPackage.FirstTestNGClassTest@69930714]" started-at="2024-01-10T16:48:25 GMT" name="register" finished-at="2024-01-10T16:48:26 GMT" duration-ms="1254" status="PASS">
+        <test-method signature="register()[pri:0, instance:firstTestNGPackage.FirstTestNGClassTest@769f71a9]" started-at="2024-01-11T10:20:25 GMT" name="register" finished-at="2024-01-11T10:20:26 GMT" duration-ms="1320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="goBackToHomepage()[pri:0, instance:firstTestNGPackage.FirstTestNGClassTest@69930714]" started-at="2024-01-10T16:48:26 GMT" name="goBackToHomepage" finished-at="2024-01-10T16:48:27 GMT" duration-ms="787" status="PASS">
+        <test-method is-config="true" signature="goBackToHomepage()[pri:0, instance:firstTestNGPackage.FirstTestNGClassTest@769f71a9]" started-at="2024-01-11T10:20:26 GMT" name="goBackToHomepage" finished-at="2024-01-11T10:20:28 GMT" duration-ms="1411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goBackToHomepage -->
-        <test-method is-config="true" signature="verifyHomepageTitle()[pri:0, instance:firstTestNGPackage.FirstTestNGClassTest@69930714]" started-at="2024-01-10T16:48:27 GMT" name="verifyHomepageTitle" finished-at="2024-01-10T16:48:27 GMT" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="verifyHomepageTitle()[pri:0, instance:firstTestNGPackage.FirstTestNGClassTest@769f71a9]" started-at="2024-01-11T10:20:28 GMT" name="verifyHomepageTitle" finished-at="2024-01-11T10:20:28 GMT" duration-ms="52" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomepageTitle -->
-        <test-method signature="support()[pri:1, instance:firstTestNGPackage.FirstTestNGClassTest@69930714]" started-at="2024-01-10T16:48:27 GMT" name="support" finished-at="2024-01-10T16:48:27 GMT" duration-ms="835" status="PASS">
+        <test-method signature="support()[pri:1, instance:firstTestNGPackage.FirstTestNGClassTest@769f71a9]" started-at="2024-01-11T10:20:28 GMT" name="support" finished-at="2024-01-11T10:20:29 GMT" duration-ms="925" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- support -->
-        <test-method is-config="true" signature="goBackToHomepage()[pri:0, instance:firstTestNGPackage.FirstTestNGClassTest@69930714]" started-at="2024-01-10T16:48:27 GMT" name="goBackToHomepage" finished-at="2024-01-10T16:48:28 GMT" duration-ms="868" status="PASS">
+        <test-method is-config="true" signature="goBackToHomepage()[pri:0, instance:firstTestNGPackage.FirstTestNGClassTest@769f71a9]" started-at="2024-01-11T10:20:29 GMT" name="goBackToHomepage" finished-at="2024-01-11T10:20:30 GMT" duration-ms="856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goBackToHomepage -->
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:firstTestNGPackage.FirstTestNGClassTest@69930714]" started-at="2024-01-10T16:48:28 GMT" name="terminateBrowser" finished-at="2024-01-10T16:48:29 GMT" duration-ms="611" status="PASS">
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:firstTestNGPackage.FirstTestNGClassTest@769f71a9]" started-at="2024-01-11T10:20:30 GMT" name="terminateBrowser" finished-at="2024-01-11T10:20:30 GMT" duration-ms="576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateBrowser -->
       </class> <!-- firstTestNGPackage.FirstTestNGClassTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
