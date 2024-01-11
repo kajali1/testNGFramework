@@ -21,6 +21,7 @@ public class FirstTestNGClassTest {
 
    public String baseUrl = "http://demo.guru99.com/test/newtours/";
    String userDir = System.getProperty("user.dir") ;
+   String os = System.getProperty("os.name");
    WebDriver driver=null;	
 
   @Parameters("Browser")
@@ -37,11 +38,16 @@ public class FirstTestNGClassTest {
 	  else if(browserName.equalsIgnoreCase("chrome"))
 	  {
 		  WebDriverManager.chromedriver().setup();
+		  if(os.contains("ubuntu"))
+		  {
 		  ChromeOptions options = new ChromeOptions();
 		  options.addArguments("--no-sandbox");
 		  options.addArguments("--disable-dev-shm-usage");
 		  options.addArguments("--headless");
 		  driver = new ChromeDriver(options);
+		  }
+		  else
+		  driver = new ChromeDriver();
 	  }
 	  else
 	  {
@@ -50,13 +56,13 @@ public class FirstTestNGClassTest {
 	  driver.get(baseUrl);
 	  driver.manage().window().maximize();
 	  System.out.println("Before test done");
-	  // String handle = driver.getWindowHandle();
-	  // driver.manage().timeouts().implicitlyWait(2,TimeUnit.SECONDS);
-	  // driver.switchTo().frame("gdpr-consent-notice");
-	  // driver.findElement(By.id("denyAll")).click();
-	  // driver.switchTo().activeElement();
-	  // driver.findElement(By.xpath("//*[@id=\"mat-dialog-0\"]/ng-component/app-theme/div/div/div[2]/button[2]")).click();	  
-	  // driver.switchTo().window(handle);
+	   String handle = driver.getWindowHandle();
+	   driver.manage().timeouts().implicitlyWait(2,TimeUnit.SECONDS);
+	   driver.switchTo().frame("gdpr-consent-notice");
+	   driver.findElement(By.id("denyAll")).click();
+	   driver.switchTo().activeElement();
+	   driver.findElement(By.xpath("//*[@id=\"mat-dialog-0\"]/ng-component/app-theme/div/div/div[2]/button[2]")).click();	  
+	   driver.switchTo().window(handle);
   }
   
   @BeforeMethod
