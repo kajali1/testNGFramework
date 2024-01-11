@@ -36,7 +36,9 @@ public class FirstTestNGClassTest {
 	  else if(browserName.equalsIgnoreCase("chrome"))
 	  {
 		  WebDriverManager.chromedriver().setup();
-		  driver = new ChromeDriver();
+		  ChromeOptions options = new ChromeOptions();
+		  options.addArguments("--no-sandbox", "--disable-dev-shm-usage");
+		  driver = new ChromeDriver(options);
 	  }
 	  else
 	  {
