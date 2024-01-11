@@ -34,7 +34,7 @@ public class TC_Class1
 
 	
 	@Test(groups = { "bonding", "strong_ties" })	
-    public void tc01LaunchURL() {	
+        public void tc01LaunchURL() {	
         driver.manage().window().maximize();	
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);	
         driver.get("http://www.demo.guru99.com/V4/");
