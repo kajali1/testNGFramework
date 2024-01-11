@@ -26,6 +26,6 @@ jobs:
 
       - name: Run Tests
 
-        run: mvn clean verify -D'cucumber.filter.tags="@tagname"'
+        run: mvn clean test -DsuiteXmlFile=testng.xml -DBrowser="chrome"
 
         working-directory: TestNGFramework
