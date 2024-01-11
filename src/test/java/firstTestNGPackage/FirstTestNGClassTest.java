@@ -39,7 +39,7 @@ public class FirstTestNGClassTest {
 	  else if(browserName.equalsIgnoreCase("chrome"))
 	  {
 		  WebDriverManager.chromedriver().setup();
-		  if(os.contains("ubuntu"))
+		  if(os.contains("Linux"))
 		  {
 		  ChromeOptions options = new ChromeOptions();
 		  options.addArguments("--no-sandbox");
