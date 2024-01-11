@@ -11,8 +11,8 @@ defaults:
 jobs:
   Test:
     runs-on: ubuntu-latest
-    steps:
-     - uses: actions/checkout@v2
+     steps:
+      - uses: actions/checkout@v2
       - name: Run Tests
         run: mvn clean test -DsuiteXmlFile=testng.xml -DBrowser="chrome"
         working-directory: TestNGFramework
