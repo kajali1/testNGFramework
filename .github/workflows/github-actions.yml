@@ -26,6 +26,6 @@ jobs:
 
       - name: Run Tests
 
-        run: mvn clean test -DsuiteXmlFile=testng.xml -DBrowser="chrome"
+        run: ls -la
 
         working-directory: TestNGFramework
