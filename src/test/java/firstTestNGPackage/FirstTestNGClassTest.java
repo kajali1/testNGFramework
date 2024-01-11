@@ -38,9 +38,9 @@ public class FirstTestNGClassTest {
 	  {
 		  WebDriverManager.chromedriver().setup();
 		  ChromeOptions options = new ChromeOptions();
-		  options.addArguments('--no-sandbox');
-		  options.add_argument('--disable-dev-shm-usage')
-		  options.add_argument('--headless')
+		  options.addArguments("--no-sandbox");
+		  options.addArguments("--disable-dev-shm-usage");
+		  options.addArguments("--headless");
 		  driver = new ChromeDriver(options);
 	  }
 	  else
