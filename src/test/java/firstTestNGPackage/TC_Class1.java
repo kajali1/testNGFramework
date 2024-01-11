@@ -75,6 +75,6 @@ public class TC_Class1
 
         Assert.assertTrue(driver.findElement(By.xpath("//a[@href='FundTransInput.php']")).isEnabled(),	
                 "Fund Transfer hyperlink is not displayed");	
-        System.out.println("Fund Transfer hyperlink is displayed");	
+        System.out.println("Fund Transfer hyperlink is displayed");
     }	
 }
