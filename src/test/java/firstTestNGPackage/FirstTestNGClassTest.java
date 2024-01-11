@@ -30,6 +30,7 @@ public class FirstTestNGClassTest {
   {
 	//  System.out.println(userDir);
 	//  System.out.println(userDir+"\\WebDrivers\\chromedriver.exe");
+	  System.out.println("OS in use is : "+os);
 	  if(browserName.equalsIgnoreCase("edge"))
 	  {
 		  WebDriverManager.edgedriver().setup();
