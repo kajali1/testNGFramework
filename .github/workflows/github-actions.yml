@@ -26,5 +26,5 @@ jobs:
 
       - name: Run Tests
 
-        run: mvn clean test -DsuiteXmlFile="testng.xml" -DBrowser="chrome"
+        run: mvn clean test -DsuiteXmlFile="testng.xml" -DBrowser="edge"
 
