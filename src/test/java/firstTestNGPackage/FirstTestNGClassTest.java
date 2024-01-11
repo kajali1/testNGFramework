@@ -50,13 +50,13 @@ public class FirstTestNGClassTest {
 	  driver.get(baseUrl);
 	  driver.manage().window().maximize();
 	  System.out.println("Before test done");
-	  String handle = driver.getWindowHandle();
-	  driver.manage().timeouts().implicitlyWait(2,TimeUnit.SECONDS);
-	  driver.switchTo().frame("gdpr-consent-notice");
-	  driver.findElement(By.id("denyAll")).click();
-	  driver.switchTo().activeElement();
-	  driver.findElement(By.xpath("//*[@id=\"mat-dialog-0\"]/ng-component/app-theme/div/div/div[2]/button[2]")).click();	  
-	  driver.switchTo().window(handle);
+	  // String handle = driver.getWindowHandle();
+	  // driver.manage().timeouts().implicitlyWait(2,TimeUnit.SECONDS);
+	  // driver.switchTo().frame("gdpr-consent-notice");
+	  // driver.findElement(By.id("denyAll")).click();
+	  // driver.switchTo().activeElement();
+	  // driver.findElement(By.xpath("//*[@id=\"mat-dialog-0\"]/ng-component/app-theme/div/div/div[2]/button[2]")).click();	  
+	  // driver.switchTo().window(handle);
   }
   
   @BeforeMethod
